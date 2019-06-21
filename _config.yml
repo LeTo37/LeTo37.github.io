@@ -1,9 +1,9 @@
 # Site settings
 title: Levi Todes
 email: levitodes2019@u.northwestern.edu
-# url: https://LeTo37.github.io
-url: "http://localhost:4000"
-# baseurl: /portfolio
+url: https://LeTo37.github.io
+# url: "http://localhost:4000"
+baseurl: /portfolio/
 description: "Portfolio of Levi Todes - MSR program at Northwestern University"
 #keywords: "your keywords, separated by commas"
 skills: "Robotics - Mechatronics - Engineer"
