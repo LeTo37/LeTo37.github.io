@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 4
+title: Sawyer Ukulele Tuner
+date: 2019-06-22
+img: sawyerUku.png
+alt: image-alt
+project-date: December 2018
+description: <h2> Overview</h2> For my final project for an Embedded Systems course I took, focusing on ROS, my group and I used a Rethink Robotics’ Sawyer to tune a Ukulele.<br><br><h2> Explanation and Strategy</h2> The goal of this project was to have a Rethink Robotics Sawyer robot autonomously tune a ukulele. The ukulele, a custom pick, and a custom tuning peg were all placed in pre-designated locations on a platform along with an alvar tag. Using the built-in head camera, Sawyer sensed the alvar tag and knew the relative locations of each of the aforemetnioned tools, it tuned the ukulele. The tuning process can be broken down into the following pattern<span>&#58;</span> <br><br><ol><li>Pick up the pick</li><li> Pluck the designated ukulele string </li><li>Listen to the produced pitch and find error from expected pitch</li><li>Set down the pick</li><li> Pick up the tuning block</li><li> Move to the designated tuning peg on the ukulele</li><li> Turn the peg by an ammount proportional to the pitch error</li><li> Set down the tuning block</li><li>Repeat steps 1-8 until pitch error is below a specified tolerance</li><li>Repeat steps 1-9 until on each of the 4 ukulele strings</li></ol> After completing all of these steps, the expectation was to have a tuned ukulele, fit for use by the great man himself, Israel Kamakawiwoʻole. <br><br> <h2>Result</h2> We were successful in getting Sawyer to tune 1 string of the Ukulele but unfortunately did not have time to calibrate the system for the rest of the strings. The video below demonstrates this, tuning the Ukulele’s A string to an A4 note, within 15 cents. <br><br> <h2>Video</h2><div align="center"> <iframe width="630" height="385" src="https://www.youtube-nocookie.com/embed/4mWf8OjD35Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div> <br><br> <h2>Code</h2> The code used for this project, as well as further documentation on the project can be found in <a href=https://github.com/zigzaugg/rosukulele>this</a> github repository.
+
+---
