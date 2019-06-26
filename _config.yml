@@ -35,7 +35,9 @@ footer:
   copyright: Levi Todes
   location: Location
   social: Around the Web
-  credits: Credit
+  contacts: Contact
+  # credits: Credit
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -55,7 +57,11 @@ address:
   - line: 60201
 
 # Credits content
-credits: 'The theme used for this portfolio is Freelancer - a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# credits: 'The theme used for this portfolio is Freelancer - a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+contacts:
+  - line: (312) 684-6984
+  - line: levitodes2019@u.northwestern.edu
 
 # Build settings
 markdown: kramdown
