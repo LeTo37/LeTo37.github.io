@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 title: Sawyer Ukulele Tuner
-date: 2019-06-22
+date: 2019-06-21
 img: sawyerUku.png
 alt: image-alt
 project-date: December 2018

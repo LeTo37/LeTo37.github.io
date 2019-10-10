@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 title: DC Motor Control
-date: 2019-06-23
+date: 2019-06-22
 img: DC_Motor_Control.png
 alt: image-alt
 project-date: April 2014
