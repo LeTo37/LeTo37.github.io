@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 6
+modal-id: 8
 title: Legged Robot
 date: 2019-06-17
 img: cick_sunt.png

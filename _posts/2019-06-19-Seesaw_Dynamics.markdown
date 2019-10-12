@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 7
+modal-id: 6
 title: Spring-Loaded Seesaw Dynamics
 date: 2019-06-19
 img: seesaw.png

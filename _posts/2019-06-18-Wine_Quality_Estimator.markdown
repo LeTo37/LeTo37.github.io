@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 8
+modal-id: 7
 title: Wine Quality Estimator (Machine Learning)
 date: 2019-06-18
 img: wine.png
