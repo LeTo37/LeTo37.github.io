@@ -43,6 +43,7 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/levi-todes-637a43177/
+    target: _blank
   - title: github
     url: https://github.com/LeTo37
   - title: instagram
